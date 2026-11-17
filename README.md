@@ -1,7 +1,7 @@
 ## Portfolio page for my work on the paper and Links to Paper and Code
-### Effective field theory of a single scalar pion field for large-scale structure: paper summary and links.
+Effective field theory of a single scalar pion field for large-scale structure: paper summary and links.
 
-"Effective field theory of a single scalar pion field for large scale structure in the Universe"
+#### "Effective field theory of a single scalar pion field for large scale structure in the Universe"
 (Celik, Horn, Mishra & Muqattash, 2026) — [arXiv:2604.12009](https://arxiv.org/abs/2604.12009)
 
 The simulation code (PLASTIC) was written by Bart Horn and me (© 2026 Bart Horn and Bhavya Mishra). The latest version lives in a single canonical location:
@@ -31,9 +31,10 @@ systematically while keeping the symmetries manifest.
 Co-author of the paper and co-owner & coder of the simulation code (shared code authorship and copyright with my advisor, Dr. Bart Horn). 
 
 My main focus was developing the FFT-based simulation and mapping code, taking it from a Mathematica prototype to Python to a C++ implementation, and improving its runtime.
--Replaced Green's-function Laplacian inversion (O(N⁶)) with FFT-based spectral inversion (O(N³ log N)) in the 3D simulation.
--Implemented a custom mixed-radix (2, 3, 5) Cooley–Tukey FFT in C++, removing the power-of-2 grid-size constraint and the need to flatten 3D arrays for  FFTW. Its runtime is comparable to NumPy and FFTW.
--Reduced runtime by roughly 400× from the first Mathematica prototype (about 20× from the move to Python, and about 20× from the move to C++), and added multithreading across independent FFT slices.
+
+- Replaced Green's-function Laplacian inversion (O(N⁶)) with FFT-based spectral inversion (O(N³ log N)) in the 3D simulation.
+- Implemented a custom mixed-radix (2, 3, 5) Cooley–Tukey FFT in C++, removing the power-of-2 grid-size constraint and the need to flatten 3D arrays for  FFTW. Its runtime is comparable to NumPy and FFTW.
+- Reduced runtime by roughly 400× from the first Mathematica prototype (about 20× from the move to Python, and about 20× from the move to C++), and added multithreading across independent FFT slices.
 
 The specific implementation and the benchmarks are documented in my honors thesis (Manhattan University, 2025). can be accessed via this link:
 
@@ -47,14 +48,7 @@ The code is free to use for research and educational purposes. Please see that r
 
 ## Citation
 
-bibtex
-@article{Celik2026pion,
-  title   = {Effective field theory of a single scalar pion field for large scale structure in the Universe},
-  author  = {Celik, L. and Horn, B. and Mishra, B. and Muqattash, D.},
-  year    = {2026},
-  journal = {arXiv preprint arXiv:2604.12009},
-  url     = {https://arxiv.org/abs/2604.12009}
-}
+"Effective Field Theory of a single Scalar Pion Field for Large Scale Structure," Lara Celik, Bart Horn, Bhavya Mishra and David Muqattash, https://arxiv.org/astro-ph-CO/2604.12009
 
 ## Credits
 
@@ -66,10 +60,10 @@ bibtex
 
 ## My Conference Talks
 
--"Cosmological Field Simulation" — Honors Thesis Defense, Science Seminar, Manhattan University, April 2025
--"Mapping the Universe's Growth" — Cosmic Pathways 2025, City College of New York, New York, 2025
--"Mapping the Universe's Growth" — Manhattan University Summer Research Conference, Riverdale, NY, September 2024
--"Simulating Large-Scale Structure Evolution with Soft-Pion Inspired Fluid Description" — 42nd RSPS Zone 2 Conference, University of Rochester, NY, April 2024
--"Pion Description for Large-Scale Structure in the Universe" — Manhattan University Summer Research Symposium, Riverdale, NY, September 2023
--"Modeling Large-Scale Structure Evolution Using Cosmological Pion Simulations" — 41st RSPS Zone 2 Conference, University of Rochester, NY, April 2023
--"Early Universe Simulation: Large-Scale Structure as Pressure-less Pion Fluid" — Jasper Summer Research Symposium, Manhattan University, NY, October 2022
+- "Cosmological Field Simulation" — Honors Thesis Defense, Science Seminar, Manhattan University, April 2025
+- "Mapping the Universe's Growth" — Cosmic Pathways 2025, City College of New York, New York, 2025
+- "Mapping the Universe's Growth" — Manhattan University Summer Research Conference, Riverdale, NY, September 2024
+- "Simulating Large-Scale Structure Evolution with Soft-Pion Inspired Fluid Description" — 42nd RSPS Zone 2 Conference, University of Rochester, NY, April 2024
+- "Pion Description for Large-Scale Structure in the Universe" — Manhattan University Summer Research Symposium, Riverdale, NY, September 2023
+- "Modeling Large-Scale Structure Evolution Using Cosmological Pion Simulations" — 41st RSPS Zone 2 Conference, University of Rochester, NY, April 2023
+- "Early Universe Simulation: Large-Scale Structure as Pressure-less Pion Fluid" — Jasper Summer Research Symposium, Manhattan University, NY, October 2022
