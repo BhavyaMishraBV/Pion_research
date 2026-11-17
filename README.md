@@ -4,7 +4,8 @@ Effective field theory of a single scalar pion field for large-scale structure: 
 #### "Effective field theory of a single scalar pion field for large scale structure in the Universe"
 (Celik, Horn, Mishra & Muqattash, 2026) — [arXiv:2604.12009](https://arxiv.org/abs/2604.12009)
 
-The simulation code (PLASTIC) was written by Bart Horn and me (© 2026 Bart Horn and Bhavya Mishra). The latest version lives in a single canonical location:
+The simulation code (PLASTIC) was written by Bart Horn and me (© 2026 Bart Horn and Bhavya Mishra). 
+The latest version lives in a single canonical location:
 - [bhorn9/pion_lss_code](https://github.com/bhorn9/pion_lss_code)
 This repo links to it instead of duplicating it, so the code and its history stay in one place.
 It summarizes the project and my part in it.
@@ -52,7 +53,9 @@ at NLO, Gray = numerical simulation Figure from Celik et al. (2026).*
 ![Pion Evolution and Over Density](Figures/pion_evolution.png)
 *Evolved conditions for π and δ at a = 0.1. Boxsize = 600 Mpc, N = 128, Ωm = 0.31 and H0 = 68 km/s/Mpc*
 
-#### For more such cool images and simulation description check out our paper at: https://arxiv.org/astro-ph-CO/2604.12009
+#### For more such cool images and simulation description check out our paper: 
+[Visit the Paper](https://doi.org/10.48550/arXiv.2604.12009)
+
 #### Citation
 
 "Effective Field Theory of a single Scalar Pion Field for Large Scale Structure," Lara Celik, Bart Horn, Bhavya Mishra and David Muqattash, https://arxiv.org/astro-ph-CO/2604.12009
