@@ -1,5 +1,5 @@
-# Portfolio page for my work on the paper and Links to Paper and Code
-Effective field theory of a single scalar pion field for large-scale structure: paper summary and links.
+## Portfolio page for my work on the paper and Links to Paper and Code
+### Effective field theory of a single scalar pion field for large-scale structure: paper summary and links.
 
 "Effective field theory of a single scalar pion field for large scale structure in the Universe"
 (Celik, Horn, Mishra & Muqattash, 2026) — [arXiv:2604.12009](https://arxiv.org/abs/2604.12009)
@@ -29,9 +29,8 @@ systematically while keeping the symmetries manifest.
 ## My contribution
 
 Co-author of the paper and co-owner & coder of the simulation code (shared code authorship and copyright with my advisor, Dr. Bart Horn). 
-My main focus was developing the
-FFT-based simulation and mapping code, taking it from a Mathematica prototype to Python to a C++ implementation, and improving its runtime.
 
+My main focus was developing the FFT-based simulation and mapping code, taking it from a Mathematica prototype to Python to a C++ implementation, and improving its runtime.
 -Replaced Green's-function Laplacian inversion (O(N⁶)) with FFT-based spectral inversion (O(N³ log N)) in the 3D simulation.
 -Implemented a custom mixed-radix (2, 3, 5) Cooley–Tukey FFT in C++, removing the power-of-2 grid-size constraint and the need to flatten 3D arrays for  FFTW. Its runtime is comparable to NumPy and FFTW.
 -Reduced runtime by roughly 400× from the first Mathematica prototype (about 20× from the move to Python, and about 20× from the move to C++), and added multithreading across independent FFT slices.
@@ -63,16 +62,14 @@ bibtex
 - Bhavya Mishra — co-author of the paper and co-principal coder of the simulation code
 - Lara Celik, David Muqattash — co-authors of the paper; additional input and testing on the code
 - Eamon McShane — additional input and testing on the code
-- Supported in part by the National Science Foundation's Research at Undergraduate Institutions
-  (RUI) program under grant PHY-2210475, and by the Kakos School of Arts and Sciences Summer
-  Research Scholars Program.
+- Supported in part by the National Science Foundation's Research at Undergraduate Institutions (RUI) program under grant PHY-2210475, and by the Kakos School of Arts and Sciences Summer Research Scholars Program.
 
 ## My Conference Talks
 
-"Cosmological Field Simulation" — Honors Thesis Defense, Science Seminar, Manhattan University, April 2025
-"Mapping the Universe's Growth" — Cosmic Pathways 2025, City College of New York, New York, 2025
-"Mapping the Universe's Growth" — Manhattan University Summer Research Conference, Riverdale, NY, September 2024
-"Simulating Large-Scale Structure Evolution with Soft-Pion Inspired Fluid Description" — 42nd RSPS Zone 2 Conference, University of Rochester, NY, April 2024
-"Pion Description for Large-Scale Structure in the Universe" — Manhattan University Summer Research Symposium, Riverdale, NY, September 2023
-"Modeling Large-Scale Structure Evolution Using Cosmological Pion Simulations" — 41st RSPS Zone 2 Conference, University of Rochester, NY, April 2023
-"Early Universe Simulation: Large-Scale Structure as Pressure-less Pion Fluid" — Jasper Summer Research Symposium, Manhattan University, NY, October 2022
+-"Cosmological Field Simulation" — Honors Thesis Defense, Science Seminar, Manhattan University, April 2025
+-"Mapping the Universe's Growth" — Cosmic Pathways 2025, City College of New York, New York, 2025
+-"Mapping the Universe's Growth" — Manhattan University Summer Research Conference, Riverdale, NY, September 2024
+-"Simulating Large-Scale Structure Evolution with Soft-Pion Inspired Fluid Description" — 42nd RSPS Zone 2 Conference, University of Rochester, NY, April 2024
+-"Pion Description for Large-Scale Structure in the Universe" — Manhattan University Summer Research Symposium, Riverdale, NY, September 2023
+-"Modeling Large-Scale Structure Evolution Using Cosmological Pion Simulations" — 41st RSPS Zone 2 Conference, University of Rochester, NY, April 2023
+-"Early Universe Simulation: Large-Scale Structure as Pressure-less Pion Fluid" — Jasper Summer Research Symposium, Manhattan University, NY, October 2022
