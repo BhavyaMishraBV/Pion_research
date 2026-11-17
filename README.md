@@ -43,6 +43,13 @@ The specific implementation and the benchmarks are documented in my honors thesi
 Simulation code (`PLASTIC.py`, `PLASTIC++.cpp`, `Gaussian_ICs.py`, `Plots.py`) can be found at => [bhorn9/pion_lss_code](https://github.com/bhorn9/pion_lss_code)
 
 The code is free to use for research and educational purposes. Please see that repository's README and LICENSE, and cite the paper if you use it.
+## Figures
+
+![Power spectrum, pion-field simulation vs. N-body](Figures/pion_spectrum.png)
+*Power spectrum comparison. Figure from Celik et al. (2026).*
+
+![Pion Evolution and Over Density](Figures/pion_evolution.png)
+*Overdensity field from the pion-field simulation.*
 
 ## Citation
 
