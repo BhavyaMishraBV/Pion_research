@@ -38,8 +38,6 @@ My main focus was developing the FFT-based simulation and mapping code, taking i
 
 The specific implementation and the benchmarks are documented in my honors thesis (Manhattan University, 2025). can be accessed via this link:
 
-## Figures
-
 ## Code
 
 Simulation code (`PLASTIC.py`, `PLASTIC++.cpp`, `Gaussian_ICs.py`, `Plots.py`) can be found at => [bhorn9/pion_lss_code](https://github.com/bhorn9/pion_lss_code)
