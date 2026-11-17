@@ -46,12 +46,14 @@ The code is free to use for research and educational purposes. Please see that r
 ## Figures
 
 ![Power spectrum, pion-field simulation vs. N-body](Figures/pion_spectrum.png)
-*Power spectrum comparison. Figure from Celik et al. (2026).*
+*Left: The evolution of the pion field power spectrum with box size = 600 Mpc, N = 128, Ωm0 = 0.31, for a = 0.01 (blue) and a = 0.10 (orange). Right: Fractional corrections to the power spectrum from nonlinear collapse. Black = analytic prediction
+at NLO, Gray = numerical simulation Figure from Celik et al. (2026).*
 
 ![Pion Evolution and Over Density](Figures/pion_evolution.png)
-*Overdensity field from the pion-field simulation.*
+*Evolved conditions for π and δ at a = 0.1. Boxsize = 600 Mpc, N = 128, Ωm = 0.31 and H0 = 68 km/s/Mpc*
 
-## Citation
+#### For more such cool images and simulation description check out our paper at: https://arxiv.org/astro-ph-CO/2604.12009
+#### Citation
 
 "Effective Field Theory of a single Scalar Pion Field for Large Scale Structure," Lara Celik, Bart Horn, Bhavya Mishra and David Muqattash, https://arxiv.org/astro-ph-CO/2604.12009
 
