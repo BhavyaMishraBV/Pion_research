@@ -74,3 +74,5 @@ at NLO, Gray = numerical simulation Figure from Celik et al. (2026).*
 - "Pion Description for Large-Scale Structure in the Universe" — Manhattan University Summer Research Symposium, Riverdale, NY, September 2023
 - "Modeling Large-Scale Structure Evolution Using Cosmological Pion Simulations" — 41st RSPS Zone 2 Conference, University of Rochester, NY, April 2023
 - "Early Universe Simulation: Large-Scale Structure as Pressure-less Pion Fluid" — Jasper Summer Research Symposium, Manhattan University, NY, October 2022
+
+  #### Talks' Deck and Poster for the research can be found [here](Presentation_Slides)
