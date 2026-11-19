@@ -37,7 +37,7 @@ My main focus was developing the FFT-based simulation and mapping code, taking i
 - Implemented a custom mixed-radix (2, 3, 5) Cooley–Tukey FFT in C++, removing the power-of-2 grid-size constraint and the need to flatten 3D arrays for  FFTW. Its runtime is comparable to NumPy and FFTW as the allocated resources and threadcoutns increase beyond laptop.
 - Reduced runtime by roughly 400× from the first Mathematica prototype (about 20× from the move to Python, and about 20× from the move to C++), and added multithreading across independent FFT slices.
 
-The specific implementation and the benchmarks are documented in my honors thesis (Manhattan University, 2025). can be accessed via this link: [Honors_Thesis_2025](../Honors_Thesis_2025)
+The specific implementation and the benchmarks are documented in my honors thesis (Manhattan University, 2025). can be accessed via this link: [Honors_Thesis_2025](https://github.com/BhavyaMishraBV/Honors_Thesis_2025)
 
 ## Code
 
